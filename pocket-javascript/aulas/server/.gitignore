@@ -1,0 +1,35 @@
+# Node modules (backend e frontend)
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (backend e frontend)
+**/.env
+
+# Ignore TS build output (backend e frontend)
+**/dist/
+**/out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Docker
+docker-compose.yml
+.dockerignore
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Package-lock files (if you're not using lockfiles)
+package-lock.json
+yarn.lock
